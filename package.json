@@ -1,0 +1,12 @@
+{
+  "name": "workerd-sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "workerd": "^1.20220926.1"
+  },
+  "scripts": {
+    "serve": "workerd serve config.capnp --watch"
+  }
+}
